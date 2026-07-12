@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 290" role="img" aria-label="Architecture Showcase: the same search feature built three ways - MVVM, MVVM with Coordinator, and Redux-style" font-family="ui-sans-serif,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="1" y="1" width="858" height="288" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="28" y="44" font-size="19" font-weight="700" fill="#1f2328" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">ArchitectureShowcase</text>
+  <text x="330" y="44" font-size="14" fill="#656d76">— one feature, three ways</text>
+  <text x="28" y="76" font-size="13.5" fill="#656d76">The same screen (load people, search) built in each style, so you can compare the trade-offs.</text>
+  <rect x="28" y="96" width="256" height="164" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="48" y="128" font-size="16" font-weight="700" fill="#0969da">MVVM</text>
+  <text x="48" y="152" font-size="13" fill="#1f2328">The low-fuss default.</text>
+  <text x="48" y="176" font-size="12.5" fill="#656d76">View → @Observable</text>
+  <text x="48" y="194" font-size="12.5" fill="#656d76">ViewModel → state</text>
+  <rect x="48" y="216" width="130" height="24" rx="12" fill="#dafbe1"/><text x="113" y="232" text-anchor="middle" font-size="12" font-weight="600" fill="#1a7f37">&#10003; unit-tested</text>
+  <rect x="302" y="96" width="256" height="164" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="322" y="128" font-size="16" font-weight="700" fill="#8250df">MVVM + Coordinator</text>
+  <text x="322" y="152" font-size="13" fill="#1f2328">Navigation kept separate.</text>
+  <text x="322" y="176" font-size="12.5" fill="#656d76">ViewModel delegates</text>
+  <text x="322" y="194" font-size="12.5" fill="#656d76">routing to a Coordinator</text>
+  <rect x="322" y="216" width="130" height="24" rx="12" fill="#dafbe1"/><text x="387" y="232" text-anchor="middle" font-size="12" font-weight="600" fill="#1a7f37">&#10003; unit-tested</text>
+  <rect x="576" y="96" width="256" height="164" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="596" y="128" font-size="16" font-weight="700" fill="#9a6700">Redux-style</text>
+  <text x="596" y="152" font-size="13" fill="#1f2328">One-way data flow.</text>
+  <text x="596" y="176" font-size="12.5" fill="#656d76">Action → Store → State</text>
+  <text x="596" y="194" font-size="12.5" fill="#656d76">great for complex screens</text>
+  <rect x="596" y="216" width="130" height="24" rx="12" fill="#dafbe1"/><text x="661" y="232" text-anchor="middle" font-size="12" font-weight="600" fill="#1a7f37">&#10003; unit-tested</text>
+</svg>
